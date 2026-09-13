@@ -11,6 +11,7 @@ export const ACARA = {
   bilik: "11 bilik berhawa dingin + 1 homestay",
   yuranDewasa: 150,
   tarikhAkhirBayaran: "30 November 2026",
+  pautanPeta: "https://maps.app.goo.gl/6SVH1ukouu4F1Jex7",
 } as const;
 
 export const LABEL_HARI: Record<number, string> = {
@@ -62,7 +63,7 @@ export const PANDUAN = [
     butir: [
       "RM150 seorang dewasa",
       "Serah kepada Bendahari sebelum 30 November 2026",
-      "Hantar resit pemindahan dalam kumpulan WhatsApp",
+      "Hantar resit transfer dalam kumpulan WhatsApp",
     ],
   },
 ] as const;
